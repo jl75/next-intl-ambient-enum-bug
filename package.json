@@ -5,17 +5,22 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "ncu": "npm-check-updates",
+    "ncu:update": "npm-check-updates -u",
+    "ncu:minor": "npm-check-updates --target minor",
+    "ncu:minor:update": "npm-check-updates -u --target minor"
   },
   "dependencies": {
-    "next": "^15.2.2",
-    "next-intl": "^4.0.2",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "next": "^15.3.2",
+    "next-intl": "^4.1.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   },
   "devDependencies": {
-    "@types/node": "^22.13.10",
-    "@types/react": "^19.0.10",
-    "typescript": "^5.8.2"
+    "@types/node": "^22.15.16",
+    "@types/react": "^19.1.3",
+    "npm-check-updates": "^18.0.1",
+    "typescript": "^5.8.3"
   }
 }
