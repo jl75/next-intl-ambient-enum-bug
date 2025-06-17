@@ -6,6 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "lint": "next lint .",
+    "eslint": "DEBUG='eslint:cli-engine' eslint .",
+    "check-types": "tsc --pretty --noEmit",
     "ncu": "npm-check-updates",
     "ncu:update": "npm-check-updates -u",
     "ncu:minor": "npm-check-updates --target minor",
@@ -20,6 +23,8 @@
   "devDependencies": {
     "@types/node": "22.15.32",
     "@types/react": "19.1.8",
+    "eslint": "^9.29.0",
+    "eslint-config-next": "15.3.3",
     "npm-check-updates": "18.0.1",
     "typescript": "5.8.3"
   }
