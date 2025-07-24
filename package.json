@@ -15,17 +15,17 @@
     "ncu:minor:update": "npm-check-updates -u --target minor"
   },
   "dependencies": {
-    "next": "15.3.3",
-    "next-intl": "4.1.0",
+    "next": "15.4.3",
+    "next-intl": "4.3.4",
     "react": "19.1.0",
     "react-dom": "19.1.0"
   },
   "devDependencies": {
-    "@types/node": "22.15.32",
+    "@types/node": "22.16.5",
     "@types/react": "19.1.8",
-    "eslint": "^9.29.0",
-    "eslint-config-next": "15.3.3",
-    "npm-check-updates": "18.0.1",
+    "eslint": "^9.31.0",
+    "eslint-config-next": "15.4.3",
+    "npm-check-updates": "18.0.2",
     "typescript": "5.8.3"
   }
 }
